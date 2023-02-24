@@ -1,0 +1,64 @@
+#head{
+    display:inline-block;
+    border:6px solid #006238;
+    width: 100%;
+    margin-bottom: 1.6em;
+    background-image: url("../../../public/images/head.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#one{
+    width:50px;
+    height:50px;
+    margin: 10px;
+    padding-left: 20px;
+    position: absolute;
+}
+#one-text{
+    font-size: 50px;
+    position: relative;
+    left:90px;
+    top:10px;
+    color: #006238;
+    
+    
+}
+#two{
+    width:50px;
+    height: 50px;
+    
+    float:right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#head-button{
+    width:0px;
+    height: 0px;
+}
+@media (max-width:430px){
+    #head{
+        height: 50px;
+    }
+    #one{
+        width:25px;
+        height:25px;
+        margin-bottom: 30px;
+        }
+        #one-text{
+            font-size: 25px;
+            position: relative;
+            left:60px;
+            top: 10px;
+            color: #006238;
+        }
+        #two{
+            height: 25px;
+            width:25px;
+            float:right;
+            margin-right: 60px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+}

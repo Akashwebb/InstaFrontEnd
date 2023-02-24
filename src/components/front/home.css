@@ -1,0 +1,122 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../../../public/images/background.jpg") ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+#home-main{
+    display: flex;
+    position: relative;
+    
+}
+#home-img{
+    width:520px;
+    height:570px;
+    
+    border: 1px solid #ec1111;
+    border-radius: 1.4em;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#link{
+    text-decoration: none;
+    color: #006238;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#home-button{
+    border: 2px solid rgb(129, 122, 122) ;
+    padding: 0.7em 1.8em;
+    position: absolute;
+    top:310px;
+    left:240px;
+    margin-top: 1.25em;
+    border-radius: 2em;
+    
+}
+#home-h2{
+   color: rgb(196, 189, 189);
+   font-size: 3.1em;
+   font-weight: bolder;
+   position: absolute;
+   top:4em;
+   left:0.7em;
+   word-spacing: 0.25em;
+   text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+   1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey;
+  
+    padding-bottom: 0.7em;
+    
+}
+#enter{
+    margin-top: 0.62em;
+  position: relative;
+  width:660px;
+  height: 37.5em;
+ 
+}
+#name{
+    position: absolute;
+    left:1000px;
+    top:530px;
+    color: antiquewhite;
+}
+@media (max-width:430px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    #home-main{
+        display: flex;
+        flex-direction: column;
+        width:auto;
+        height: 550px
+        
+    } 
+    #home-img{
+        margin-left: 15px;
+        margin-bottom: 10px;
+        width:380px;
+        height: 500px;
+    }
+    #home-h2{
+        color: rgb(196, 189, 189);
+        font-size: 2em;
+        font-weight: bolder;
+        top:0em;
+        left:0.7em;
+        text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+        1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey;
+         width:400px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+     #enter{
+        margin-top: 0.62em;
+      position: relative;
+      
+      width:370px;
+      height: 100px;
+     
+    }
+    #home-button{
+        border: 2px solid rgb(129, 122, 122) ;
+        padding: 0.7em 1.8em;
+        position: absolute;
+        top:5.9em;
+        left:11em;
+        border-radius: 2em;
+        
+    }
+    #name{
+        position: absolute;
+        left:270px;
+        top:710px;
+        color: antiquewhite;
+    }
+    
+}
